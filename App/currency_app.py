@@ -8,10 +8,10 @@ st.title('Exchange rate Euro to custom currency, 1999-2022')
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv("euro-daily-hist_1999_2022.csv")
+    data = pd.read_csv("Dataset/euro-daily-hist_1999_2022.csv")
     data.rename(columns={'Period\\Unit:': '[Time ]'}, inplace=True)
     data.columns = [col[1:-2] for col in data.columns]
-    
+
     data['Time'] = pd.to_datetime(data['Time'])
     data.sort_values('Time', inplace=True)
     data.reset_index(drop=True, inplace=True)
