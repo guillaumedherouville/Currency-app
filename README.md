@@ -4,6 +4,8 @@ It is based on a Kaggle dataset and shows the exchange rate of a chosen currency
 
 The dataset can be found and downloaded here : https://www.kaggle.com/datasets/lsind18/euro-exchange-daily-rates-19992020/code?resource=download
 
+We recommend creating a "Dataset" folder and storing the csv file there to run the app.
+
 The app has been contenairized on docker and its image is available here : ...
 (including the dataset)
 
