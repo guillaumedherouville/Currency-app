@@ -6,6 +6,5 @@ The dataset can be found and downloaded here : https://www.kaggle.com/datasets/l
 
 We recommend creating a "Dataset" folder and storing the csv file there to run the app.
 
-The app has been contenairized on docker and its image is available here : ...
-(including the dataset)
-
+The app has been contenairized on docker and its image is available with the following command : docker pull adherouville/currency-exchange-rate-app
+available at this link : https://hub.docker.com/r/adherouville/currency-exchange-rate-app
