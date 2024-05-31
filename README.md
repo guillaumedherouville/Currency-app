@@ -13,7 +13,7 @@ The app has been contenairized on docker and its image is available at this link
 It can be run with the following commands :
 
 ```bash
-`docker pull adherouville/currency-exchange-rate-app`
+`docker pull adherouville/currency-exchange-rate-app````bash
 
 and :
 
