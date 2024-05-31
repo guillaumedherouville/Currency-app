@@ -11,7 +11,7 @@ I recommend creating a "Dataset" folder and storing the csv file there to run th
 The app has been contenairized on docker and its image is available at this link : https://hub.docker.com/r/adherouville/currency-exchange-rate-app
 
 It can be run with the following commands : 
-'docker pull adherouville/currency-exchange-rate-app'
+`docker pull adherouville/currency-exchange-rate-app`
 and :
-'run -d --name currency-exchange-app -p 8080:8501 adherouville/currency-exchange-rate-app:latest'
+`run -d --name currency-exchange-app -p 8080:8501 adherouville/currency-exchange-rate-app:latest`
 
