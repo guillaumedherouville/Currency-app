@@ -9,7 +9,8 @@ https://www.kaggle.com/datasets/lsind18/euro-exchange-daily-rates-19992020/code?
 I recommend creating a "Dataset" folder and storing the csv file there to run the app.
 
 ## Docker
-The app has been contenairized on docker and its image is available at this link : https://hub.docker.com/r/adherouville/currency-exchange-rate-app
+The app has been contenairized on docker and its image is available at this link :  
+https://hub.docker.com/r/adherouville/currency-exchange-rate-app
 
 It can be run with the following commands :
 
