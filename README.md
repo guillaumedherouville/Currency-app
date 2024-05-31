@@ -16,8 +16,6 @@ It can be run with the following commands :
 docker pull adherouville/currency-exchange-rate-app
 ```
 
-and :
-
 ```
 run -d --name currency-exchange-app -p 8080:8501 adherouville/currency-exchange-rate-app:latest
 ```
